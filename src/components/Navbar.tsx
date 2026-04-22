@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Menu, X, Zap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const navLinks = [
   { label: 'Tentang Kami', href: '#about' },
@@ -29,14 +29,12 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2.5 group">
-          <div className="w-9 h-9 rounded-xl bg-electric-600 flex items-center justify-center glow-blue-sm transition-all duration-300 group-hover:scale-110">
-            <Zap className="w-5 h-5 text-white" fill="white" />
-          </div>
-          <div className="leading-tight">
-            <span className="block font-display font-700 text-white text-sm tracking-tight">DDW Labs</span>
-            <span className="block text-[10px] text-electric-400 tracking-widest uppercase font-medium">Indonesia</span>
-          </div>
+        <a href="#" className="flex items-center gap-3 group h-12">
+          <img
+            src="/WhatsApp_Image_2026-04-16_at_10.56.41.jpeg"
+            alt="DDW Labs Indonesia"
+            className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+          />
         </a>
 
         {/* Desktop Nav */}

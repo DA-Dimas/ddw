@@ -1,4 +1,4 @@
-import { Zap, Mail, Phone, MapPin, Instagram, Linkedin, Twitter, Youtube, ArrowUpRight } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram, Linkedin, Twitter, Youtube, ArrowUpRight } from 'lucide-react';
 
 const services = [
   'Digital Marketing',
@@ -40,13 +40,11 @@ export default function Footer() {
           <div className="lg:col-span-1 space-y-6">
             {/* Logo */}
             <div className="flex items-center gap-2.5">
-              <div className="w-10 h-10 rounded-xl bg-electric-600 flex items-center justify-center glow-blue-sm">
-                <Zap className="w-5 h-5 text-white" fill="white" />
-              </div>
-              <div>
-                <span className="block font-display font-bold text-white text-base">DDW Labs</span>
-                <span className="block text-[11px] text-electric-400 tracking-widest uppercase font-medium">Indonesia</span>
-              </div>
+              <img
+                src="/WhatsApp_Image_2026-04-16_at_10.56.41.jpeg"
+                alt="DDW Labs Indonesia"
+                className="h-16 w-auto object-contain"
+              />
             </div>
 
             <p className="text-white/45 text-sm leading-relaxed">
